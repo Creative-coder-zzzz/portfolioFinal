@@ -4,12 +4,12 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import "./App.css";
 import Header from "./components/Header";
 import Name from "./components/Name";
-import ScrollReveal from "../src/components/ScrollReveal";
+
 import SocialMedia from "./components/SocialMedia";
 import About from "./components/About";
 import CardSlider from "./components/CardSlider";
 import { cardData } from "./data/cardData";
-import { fadeInRight } from "./data/animationVariants";
+
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import UpArrow from "./components/UpArrow";
@@ -53,18 +53,12 @@ function App() {
             className=" w-full h-screen overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('./assets/images/Wireframe.png')] z-10"
             ref={arrow}
           >
-            <ScrollReveal
-              variants={fadeInRight}
-              initial="hidden"
-              transition={{ duration: 0.5 }}
-            >
-              <Header
-                about={handleabout}
-                project={handleproject}
-                skill={handleskill}
-                contact={handlecontact}
-              />
-            </ScrollReveal>
+            <Header
+              about={handleabout}
+              project={handleproject}
+              skill={handleskill}
+              contact={handlecontact}
+            />
 
             <Name />
 
@@ -77,13 +71,7 @@ function App() {
             className=" w-full h-screen overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('./assets/images/About.png')] "
             ref={ref}
           >
-            <ScrollReveal
-              variants={fadeInRight}
-              initial="hidden"
-              transition={{ duration: 0.5 }}
-            >
-              <About />
-            </ScrollReveal>
+            <About />
           </section>
         </ParallaxLayer>
 
