@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
+import { FaBars } from "react-icons/fa";
 
 function Header({ about, project, skill, contact }) {
   const [toggle, setToggle] = useState(false);
@@ -10,7 +10,7 @@ function Header({ about, project, skill, contact }) {
 
   return (
     <div className=" sticky text-white flex flex-row justify-between items-center rounded-full mt-5 md:mx-10 mx-5 gap-10  bg-black/30 backdrop-blur-3xl">
-      <CiMenuBurger
+      <FaBars
         className="block md:hidden md:text-xl cursor-pointer mx-2"
         onClick={() => handleClick()}
       />
