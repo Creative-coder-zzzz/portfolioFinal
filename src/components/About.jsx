@@ -13,7 +13,7 @@ function About() {
       <div className=" mt-10 md:w-[400px] text-center float-right mx-10 lg:mx-32 ">
         <TextGenerateEffect words={text} className="text-center" />
         <button className=" p-4 bg-[#f237f6] text-white rounded-full font-semibold hover:text-black hover:bg-white duration-300 ">
-          Contact Me
+          Read more
         </button>
       </div>
     </div>
