@@ -1,17 +1,37 @@
 import { React, useRef } from "react";
 import { TypewriterEffect } from "./ui/Typewriter-effect";
-
+import axios from "axios";
+import emailjs from "@emailjs/browser";
+import { Result } from "postcss";
 function Contact() {
   const words = [{ text: "CONTACT" }, { text: "ME" }];
+
+  const form = useRef();
 
   const name = useRef();
   const email = useRef();
   const message = useRef();
 
-  const hanldleSubmit = () => {
-    console.log(name.current.value);
-    console.log(email.current.value);
-    console.log(message.current.value);
+  const hanldleSubmit = async () => {
+    console.log(form.current);
+
+    emailjs
+      .sendForm(
+        "service_yqjpvcm",
+        "template_500u5a6",
+        form.current,
+        "g-XZoTjto484lbseB"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    alert("Thank you for contacting me");
 
     name.current.value = "";
     email.current.value = "";
@@ -27,13 +47,14 @@ function Contact() {
         className=" mt-14 lg:mt-10 lg:mx-[35%] md:mx-[31%] 
       mx-[20%] md:text-xl "
       >
-        <form action="" className="flex flex-col gap-2">
+        <form ref={form} action="" className="flex flex-col gap-2">
           <label htmlFor="Name">Name:</label>
           <input
             type="text"
             placeholder="Your Name"
             className="mt-3 p-2 rounded-lg md:text-lg bg-[#492121] "
             ref={name}
+            name="from_name"
           />
           <label htmlFor="Email"> Email</label>
 
@@ -42,6 +63,7 @@ function Contact() {
             placeholder="E-mail"
             className="mt-3 p-2 rounded-lg md:text-lg bg-[#492121] "
             ref={email}
+            name="from_email"
           />
 
           <label htmlFor="Email">Message</label>
@@ -51,6 +73,7 @@ function Contact() {
             className="mt-3 p-2 rounded-lg md:text-lg bg-[#492121] "
             rows={6}
             ref={message}
+            name="message"
           />
         </form>
         <div className="flex justify-end mt-2">
