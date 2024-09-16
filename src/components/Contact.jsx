@@ -13,8 +13,6 @@ function Contact() {
   const message = useRef();
 
   const hanldleSubmit = async () => {
-    console.log(form.current);
-
     emailjs
       .sendForm(
         "service_yqjpvcm",
