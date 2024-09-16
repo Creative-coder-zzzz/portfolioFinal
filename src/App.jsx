@@ -41,7 +41,7 @@ function App() {
     arrow.current.scrollIntoView({ behaviour: "smooth" });
   };
   return (
-    <>
+    <div className="overflow-hidden">
       <section
         className=" w-full h-screen overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('./assets/images/Wireframe.png')] z-10"
         ref={arrow}
@@ -96,7 +96,7 @@ function App() {
       <div>
         <UpArrow arrow={handlearrow} className="z-0" />
       </div>
-    </>
+    </div>
   );
 }
 
