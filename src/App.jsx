@@ -1,6 +1,5 @@
 import React, { useState, useRef, Component, useEffect } from "react";
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import "./App.css";
 import Header from "./components/Header";
 import Name from "./components/Name";
@@ -40,8 +39,14 @@ function App() {
   const handlearrow = () => {
     arrow.current.scrollIntoView({ behaviour: "smooth" });
   };
+  const [mode, setMode] = useState(true);
+
+  function handleDarkMode() {
+    setMode(!mode);
+    console.log(mode);
+  }
   return (
-    <div className="overflow-hidden">
+    <div className={mode ? "" : "dark-mode"}>
       <section
         className=" w-full h-screen overflow-hidden bg-cover bg-center bg-no-repeat bg-[url('./assets/images/Wireframe.png')] z-10"
         ref={arrow}
@@ -51,6 +56,8 @@ function App() {
           project={handleproject}
           skill={handleskill}
           contact={handlecontact}
+          handleDarkMode={handleDarkMode}
+          mode={mode}
         />
 
         <Name />

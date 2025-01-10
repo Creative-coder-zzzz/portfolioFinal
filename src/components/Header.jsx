@@ -1,7 +1,10 @@
 import React, { useRef, useState } from "react";
+import { BiMoon } from "react-icons/bi";
+import { BsFillMoonFill } from "react-icons/bs";
+import { CgDarkMode } from "react-icons/cg";
 import { FaBars } from "react-icons/fa";
 
-function Header({ about, project, skill, contact }) {
+function Header({ about, project, skill, contact, handleDarkMode, mode }) {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => {
     setToggle(!toggle);
@@ -46,6 +49,13 @@ function Header({ about, project, skill, contact }) {
 
       <div className="light-dark"></div>
 
+      <button onClick={() => handleDarkMode()}>
+        {mode ? (
+          <BsFillMoonFill className="" size={24}></BsFillMoonFill>
+        ) : (
+          <BiMoon className="" size={30}></BiMoon>
+        )}
+      </button>
       <button
         className="p-3 h  rounded-full mx-4 hover:scale-100 duration-500 bg-black/60 hover:bg-white hover:text-black  text-sm "
         onClick={contact}

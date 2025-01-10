@@ -37,7 +37,6 @@ function Skills() {
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
-              <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
             </div>
 
             <div className="flex gap-4 ">
@@ -47,7 +46,6 @@ function Skills() {
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300 text-[#fa00ff] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#fa00ff] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#fa00ff] text-xl" />
-              <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
             </div>
 
             <div className="flex gap-4 ">
@@ -57,14 +55,12 @@ function Skills() {
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
-              <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
             </div>
 
             <div className="flex gap-4 ">
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
-              <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
@@ -85,7 +81,6 @@ function Skills() {
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
-                <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               </div>
 
               <div className="flex gap-4 ">
@@ -95,7 +90,6 @@ function Skills() {
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300 text-[#fa00ff] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#fa00ff] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#fa00ff] text-xl" />
-                <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               </div>
 
               <div className="flex gap-4 ">
@@ -105,14 +99,12 @@ function Skills() {
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
-                <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
               </div>
 
               <div className="flex gap-4 ">
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#FA00FF] text-xl" />
-                <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />
                 <GoDotFill className="cursor-pointer hover:-mt-2 duration-300  text-[#790A7B] text-xl" />

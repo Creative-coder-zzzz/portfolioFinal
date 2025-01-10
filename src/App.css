@@ -1,0 +1,7 @@
+.dark-mode {
+  color: black; /* Change all text to black */
+}
+
+.dark-mode * {
+  color: inherit; /* Ensure nested elements inherit the text color */
+}
