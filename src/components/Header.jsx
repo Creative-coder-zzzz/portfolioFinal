@@ -49,13 +49,6 @@ function Header({ about, project, skill, contact, handleDarkMode, mode }) {
 
       <div className="light-dark"></div>
 
-      <button onClick={() => handleDarkMode()}>
-        {mode ? (
-          <BsFillMoonFill className="" size={24}></BsFillMoonFill>
-        ) : (
-          <BiMoon className="" size={30}></BiMoon>
-        )}
-      </button>
       <button
         className="p-3 h  rounded-full mx-4 hover:scale-100 duration-500 bg-black/60 hover:bg-white hover:text-black  text-sm "
         onClick={contact}
