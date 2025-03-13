@@ -3,6 +3,7 @@ import Disney from '../assets/images/Disney.png';
 import portfolio from '../assets/images/portfolio.png'
 import food from '../assets/images/food.png'
 import UrbanWave from '../assets/images/image.png'
+import pahuna from '../assets/images/pahuna.png'
 export const cardData = [
   {
     id: 1,
@@ -15,9 +16,20 @@ export const cardData = [
     visit:'https://the-urban-wave.vercel.app' ,
 
   },
+  {
+    id: 3,
+    title: 'PAHUNA RETREAT',
+    content: 'This is homestay website of sikkim based home stay created using react',
+    image: pahuna, 
+    buttonLeftText: 'Git repo',
+    buttonRightText: 'Visit Site',
+    gitrepo:'https://github.com/Creative-coder-zzzz/Pahuna-Retreat.git' ,
+    visit:'https://pahuna-retreat.vercel.app/' ,
+
+  },
  
   {
-    id: 2,
+    id: 4,
     title: 'DISNEY CLONE',
     content: 'This is Disney UI clone created with react+vite and Tailwind css',
     image: Disney, 
@@ -28,7 +40,7 @@ export const cardData = [
 
   },
   {
-    id: 3,
+    id: 5,
     title: 'Portfolio',
     content: 'This is My dummy Portfolio  created with HTML css and Js at time when i was fresh in front end development',
     image: portfolio, 
@@ -39,7 +51,7 @@ export const cardData = [
 
   },
   {
-    id: 4,
+    id: 6,
     title: 'Food Delivery App',
     content: 'This is food delivery app  created with react+vite and Tailwind css',
     image: food, 

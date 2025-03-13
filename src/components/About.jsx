@@ -4,7 +4,7 @@ import { TextGenerateEffect } from "./ui/Text-generate-effect";
 function About() {
   const words = [{ text: "About" }, { text: "Me" }];
   const text =
-    "I am a skilled full stack developer proficient in front-end and back-end technologies. With expertise in languages such as JavaScript, Python, and frameworks like React and Django, I excel in creating responsive web applications. Passionate about clean code and problem-solving, I thrive in collaborative environments where I can contribute my skills in software development and deliver high-quality solutions. ";
+    "I am a skilled full stack developer proficient in front-end and back-end technologies. With expertise in languages such as JavaScript, Python, and frameworks like React. I excel in creating responsive web applications. Passionate about clean code and problem-solving, I thrive in collaborative environments where I can contribute my skills in software development and deliver high-quality solutions. ";
   return (
     <div>
       <div className="mt-28">
