@@ -4,6 +4,7 @@ import portfolio from '../assets/images/portfolio.png'
 import food from '../assets/images/food.png'
 import UrbanWave from '../assets/images/image.png'
 import pahuna from '../assets/images/pahuna.png'
+import jobify from '../assets/images/jobify.png'
 export const cardData = [
   {
     id: 1,
@@ -20,7 +21,7 @@ export const cardData = [
     id: 2,
     title: 'JOBIFY',
     content: 'This is the job portal next js  project one of my best projects',
-    image: UrbanWave, 
+    image: jobify, 
     buttonLeftText: 'Git repo',
     buttonRightText: 'Visit Site',
     gitrepo:'https://github.com/Creative-coder-zzzz/Jobify.git' ,
