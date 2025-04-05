@@ -17,6 +17,17 @@ export const cardData = [
 
   },
   {
+    id: 2,
+    title: 'JOBIFY',
+    content: 'This is the job portal next js  project one of my best projects',
+    image: UrbanWave, 
+    buttonLeftText: 'Git repo',
+    buttonRightText: 'Visit Site',
+    gitrepo:'https://github.com/Creative-coder-zzzz/Jobify.git' ,
+    visit:'https://jobify-virid-phi.vercel.app/' ,
+
+  },
+  {
     id: 3,
     title: 'PAHUNA RETREAT',
     content: 'This is homestay website of sikkim based home stay created using react',
